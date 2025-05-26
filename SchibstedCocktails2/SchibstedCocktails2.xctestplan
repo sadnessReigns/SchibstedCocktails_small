@@ -1,0 +1,36 @@
+{
+  "configurations" : [
+    {
+      "id" : "32CED24B-1BA9-4D30-8420-26D147B0FA5C",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:SchibstedCocktails2.xcodeproj",
+      "identifier" : "2BA47FE22DE3124100F5073E",
+      "name" : "SchibstedCocktails2"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:SchibstedCocktails2\/Packages\/NetworkingLibrary",
+        "identifier" : "NetworkingLibraryTests",
+        "name" : "NetworkingLibraryTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:SchibstedCocktails2.xcodeproj",
+        "identifier" : "2BA47FF82DE3124300F5073E",
+        "name" : "SchibstedCocktails2Tests"
+      }
+    }
+  ],
+  "version" : 1
+}
