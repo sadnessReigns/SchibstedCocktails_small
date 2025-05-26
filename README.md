@@ -7,7 +7,7 @@ I tried NOT to be creative there, and just follow A/C as "dry" as possible. Even
 
 ``Project Architecture``
 - 
-Sample project + a local SPM package
+Sample project + a local SPM package. Since that's a live-coding style of code, the main point of it is to introduce a package and utilize it within the main project. Some things might be rushed, but that's due to genuine time confinement I put on myself so that test assignment aligns with "expected" timeline I received.
 
 ``Design pattern``
 -
